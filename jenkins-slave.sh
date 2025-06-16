@@ -1,6 +1,6 @@
 #!/bin/bash
 apt-get update
-apt-get install -y unzip curl openjdk-17-jdk
+apt-get install -y unzip curl openjdk-17-jdk git
 
 TERRAFORM_VERSION="1.12.2"
 curl -fsSL https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip -o terraform.zip
